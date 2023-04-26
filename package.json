@@ -7,6 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "b-g": "npm run build && npm run generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:prettier",
@@ -29,9 +30,10 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
+    "fibers": "^5.0.3",
     "postcss": "^8.4.21",
     "prettier": "^2.7.1",
-    "sass": "^1.58.0",
+    "sass": "^1.62.1",
     "sass-loader": "10"
   }
 }
