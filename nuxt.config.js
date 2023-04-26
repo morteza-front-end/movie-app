@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'movie',
     htmlAttrs: {
-      lang: 'fa',
+      lang: 'En',
     },
     meta: [
       { charset: 'utf-8' },
@@ -16,6 +16,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // "@/assets/css/tailwind.css",
+    "@/assets/css/default.scss",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
